@@ -22,7 +22,7 @@ We support a collection of templates, organized in this way:
 
 - The root folder contains templates in common use, to help people get started
   with popular programming languages and technologies. These define a meaningful
-  set of rules to help get started, and ensure you are not committing
+  set of rules to help you get started and ensure you are not committing
   unimportant files into your repository.
 - [`Global`](./Global) contains templates for various editors, tools and
   operating systems that can be used in different situations. It is recommended
@@ -30,14 +30,14 @@ We support a collection of templates, organized in this way:
   or merge these rules into your project-specific templates if you want to use
   them permanently.
 - [`community`](./community) contains specialized templates for other popular
-  languages, tools and project, which don't currently belong in the mainstream
+  languages, tools, and projects, which don't currently belong in the mainstream
   templates. These should be added to your project-specific templates when you
   decide to adopt the framework or tool.
 
 ## What makes a good template?
 
 A template should contain a set of rules to help Git repositories work with a
-specific programming language, framework, tool or environment.
+specific programming language, framework, tool, or environment.
 
 If it's not possible to curate a small set of useful rules for this situation,
 then the template is not a good fit for this collection.
@@ -46,11 +46,11 @@ If a template is mostly a list of files installed by a particular version of
 some software (e.g. a PHP framework), it could live under the `community`
 directory. See [versioned templates](#versioned-templates) for more details.
 
-If you have a small set of rules, or want to support a technology that is not
+If you have a small set of rules or want to support a technology that is not
 widely in use, and still believe this will be helpful to others, please read the
 section about [specialized templates](#specialized-templates) for more details.
 
-Include details when opening pull request if the template is important and visible. We
+Include details when opening a pull request if the template is important and visible. We
 may not accept it immediately, but we can promote it to the root at a later date
 based on interest.
 
@@ -80,7 +80,7 @@ high quality, we request that contributions adhere to the following guidelines.
 
 - **Please consider the scope of your change**. If your change is specific to a
   certain language or framework, then make sure the change is made to the
-  template for that language or framework, rather than to the template for an
+  template for that language or framework, rather than the template for an
   editor, tool, or operating system.
 
 - **Please only modify _one template_ per pull request**. This helps keep pull
@@ -92,7 +92,7 @@ the more likely we’ll be to accept your contribution quickly.
 ## Versioned templates
 
 Some templates can change greatly between versions, and if you wish to contribute
-to this repository we need to follow this specific flow:
+to this repository, we need to follow this specific flow:
 
 - the template at the root should be the current supported version
 - the template at the root should not have a version in the filename (i.e.
@@ -111,7 +111,7 @@ mainstream, please consider adding this to the `community` directory under a
 folder that best suits where it belongs.
 
 The rules in your specialized template should be specific to the framework or
-tool, and any additional templates should be mentioned in a comment in the
+tool and any additional templates should be mentioned in a comment in the
 header of the template.
 
 For example, this template might live at `community/DotNet/InforCRM.gitignore`:
@@ -140,7 +140,7 @@ Here’s how we suggest you go about proposing a change to this project:
 
 1. [Fork this project][fork] to your account.
 2. [Create a branch][branch] for the change you intend to make.
-3. Make your changes to your fork.
+3. Make changes to your fork.
 4. [Send a pull request][pr] from your fork’s branch to our `main` branch.
 
 Using the web-based interface to make changes is fine too, and will help you
